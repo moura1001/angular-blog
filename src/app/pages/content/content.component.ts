@@ -11,7 +11,7 @@ export class ContentComponent implements OnInit {
   photoCover:string = ""
   contentTitle:string = ""
   contentDescription:string = ""
-  private id:string | null = "0"
+  private id:string = ""
 
   constructor(
     private route:ActivatedRoute
@@ -19,7 +19,7 @@ export class ContentComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.paramMap.subscribe( value =>
-     this.id = value.get("id")
+     this.id = value.get("id") ? value.get("id") as string : ""
     )
 
     this.setValuesToComponent(this.id)
