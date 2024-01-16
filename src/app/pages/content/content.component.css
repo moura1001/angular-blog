@@ -1,8 +1,9 @@
 .container__content{
 
-  width: 100%;
+  width: 80%;
   height: 100vh;
 
+  margin: auto;
   margin-top: 20px;
 
   display: flex;
@@ -14,13 +15,17 @@
 .content__cover > img{
   border:5px solid rgb(144, 144, 144);
   border-radius: 5px;
-  width: 500px;
-  min-width: 500px;
+  width: 100%;
+  min-width: 100%;
   height: 300px;
 }
 
 .content__description{
+  width: 100%;
   margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .content__description > p{

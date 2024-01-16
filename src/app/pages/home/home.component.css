@@ -1,4 +1,6 @@
 .container__articles{
+  width: 100%;
+  margin: auto;
   margin-top: 30px;
 
   display: flex;
@@ -6,4 +8,10 @@
   justify-content: center;
 }
 
+.articles__main{
+  width: 45%;
+}
 
+.articles__others{
+  width: 45%;
+}
