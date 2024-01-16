@@ -2,32 +2,37 @@ export type Post = {
   id: string;
   title: string;
   description: string;
+  content: string;
   photoCover: string;
 }
 
 export const dataFake: Post[] = [
   {
     "id":"1",
-    "title": "NOVO HOMEM DE FERRO EM 3D",
-    "description": "marvel anuncia um novo filme do homem de ferro, confira",
-    "photoCover":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/7F51FA9F6CBD9F0C9B1394B1CC0A6A842D07091318674E234CD33CBF7C28CDC3/scale?width=1200&aspectRatio=1.78&format=jpeg"
+    "title": "Generation I",
+    "description": "The first Pokémon games, Pokémon Red and Green Versions, came to the Nintendo Game Boy system in Japan on February 27, 1996, which was the fulfillment of Satoshi Tajiri's dream and allowed people of all ages to catch, train and trade 151 creatures and become a Pokémon Master.",
+    "content": "The first Pokémon games, Pokémon Red and Green Versions, came to the Nintendo Game Boy system in Japan on February 27, 1996, which was the fulfillment of Satoshi Tajiri's dream and allowed people of all ages to catch, train and trade 151 creatures and become a Pokémon Master.\n\nInitially, the Pokémon games had modest sales. However, after players discovered Mew in the games, the magazine CoroCoro announced a \"Legendary Pokémon Offer\" to distribute Mew to twenty entrants. The contest received 78,000 entrants, and the sales of the Pokémon games quickly increased.\nDue to high sales, Pokémon Red and Green were swiftly followed up with Pokémon Blue, which had improved graphics and sounds.",
+    "photoCover":"https://archives.bulbagarden.net/media/upload/thumb/2/21/Green_JP_boxart.png/200px-Green_JP_boxart.png"
   },
   {
     "id":"2",
-    "title": "Nova Série anunciada no Disney +",
-    "description": "bla blabla",
-    "photoCover":"https://disneyplusbrasil.com.br/wp-content/uploads/2021/07/Series-Marvel-Disney-Plus-1024x576.jpg"
+    "title": "Nintendo Power",
+    "description": "",
+    "content": "Nintendo Power is a video game news and strategy podcast and former magazine from Nintendo of America, first published in July/August 1988 as Nintendo's official print magazine for North America. The magazine's publication was initially done monthly by Nintendo of America, then independently, and in December 2007 contracted to Future US, the American subsidiary of British publisher Future.\n\nIts 24–year production run is one of the longest of all video game magazines in the United States and Canada.\nOn August 21, 2012, Nintendo announced that it would not be renewing its licensing agreement with Future Publishing, and that Nintendo Power would cease publication in December.\nThe final issue, volume 285, was released on December 11, 2012.",
+    "photoCover":"https://en.wikipedia.org/wiki/Nintendo_Power#/media/File:Nintendo_Power.jpg"
   },
   {
     "id":"3",
-    "title": "Novo filme do pantera negra lançado em breve",
-    "description": "bla blabla",
-    "photoCover":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/35720ACD323F927C3A83D809D0F460BD3651740DA519BCC184B6F042057EA14D/scale?width=1200&aspectRatio=1.78&format=jpeg"
+    "title": "Mega Man X",
+    "description": "",
+    "content": "Mega Man X is set 100 years after the end of the classic Mega Man series, and focuses largely on the conflict caused by Mavericks (or Irregulars for the fans of the Japanese series), robots who feel that their kind is superior to humanity and wish to take over the world.\n\nYou play as X, the original reploid created by Dr. Light and locked away for a century, who is tasked with the job of hunting down Sigma, X’s former Maverick Hunter commander who has joined forces with the Mavericks.",
+    "photoCover":"https://retrogamingaus.com/wordpress/wp-content/uploads/2012/08/Mega-Man-X.jpg"
   },
   {
     "id":"4",
-    "title": "Novo filme dos X-men está em pós produção, afirma diretor",
-    "description": "bla blabla",
-    "photoCover":"https://midias.correiobraziliense.com.br/_midias/jpg/2022/07/22/675x450/1_xmen-26096415.jpeg?20220722171339?20220722171339"
+    "title": "Metal Gear",
+    "description": "",
+    "content": "June 1987 ad covering various MSX games by Konami, including the first announcement of Metal Gear. Note that several elements in the included screenshots for the game differed from the final game.\n\nNotably, there was no white border around the life gauge, and the weapons and equipment slots in the HUD;\nthe HUD had room for an O2 Gauge, which thus had the player rank occurring in the middle;\nthe fence in the courtyard of Building 1 being a wooden fence rather than a chain link fence, and Snake holding a gun in the courtyard image that wasn't present in the final release (either being an earlier design of his handgun or removed altogether).",
+    "photoCover":"https://static.wikia.nocookie.net/metalgear/images/f/fe/MSXFAN1987-06_0117-8.jpg/revision/latest/scale-to-width-down/1000?cb=20150107050651"
   },
 ]
